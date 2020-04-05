@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #2b7c91;
+    --clr-dark: #404040;
+    --clr-light: #d7d7d7;
+}
+
+.photo {
+    width: 100%;
+}
+
+header {
+    background-color: var(--clr-primary);
+    text-align: center;
+}
+
+aside {
+    background-color: var(--clr-primary);
+}
+
+img {
+    width: 2rem;
+    filter: grayscale(100%);
+}
+
+ul {
+    list-style: none;
+}
+
+.bar-light {
+    background-color: var(--clr-light);
+}
+
+.bar-dark {
+    background-color: var(--clr-dark);
+    width: 75%;
+    height: 1rem;
+}
